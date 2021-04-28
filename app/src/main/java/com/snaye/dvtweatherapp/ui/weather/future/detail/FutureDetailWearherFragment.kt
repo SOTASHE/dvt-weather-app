@@ -5,7 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.ViewModelProvider
 import com.snaye.dvtweatherapp.R
+import java.util.EnumSet.of
 
 class FutureDetailWearherFragment : Fragment() {
 
@@ -24,6 +26,7 @@ class FutureDetailWearherFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+
         //viewModel = ViewModelProvider(this).get(FutureDetailWearherViewModel::class.java)
         // TODO: Use the ViewModel
     }
